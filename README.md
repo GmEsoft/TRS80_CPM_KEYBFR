@@ -72,9 +72,9 @@ Additional notes
 
 1.	The AZERTY keyboard layout is somewhat different from the layout in TRSDOS/LS-DOS. CP/M
 	is unable to handle accented characters because it is limited to 7-bit ASCII.
-	So the accented characters **&eacute;**, **&egrave;**, **&agrave;**, **&ccedil;**, **&para;** and **SHIFT-&uml;** are replaced respectly with
-	**[**, **]**, **`**, **^**, **#** and **~**. Also the keys **^** and **&uml;** are no 'dead keys'. The CLEAR key generates ESC (0x1B) and SHIFT-CLEAR
-	clears the command line. CTRL-CLEAR generates DEL (0x7F).
+	So the accented characters **&eacute;**, **&egrave;**, **&agrave;**, **&ccedil;**, **&sect;** and **SHIFT-&uml;** are replaced respectly with
+	**[**, **]**, **\`**, **^**, **#** and **~**. Also the keys **^** and **&uml;** are no 'dead keys'. The `CLEAR` key generates ESC (0x1B) and 
+	`SHIFT`-`CLEAR` clears the command line. `CTRL`-`CLEAR` generates DEL (0x7F).
 
 2.	The AZERTY keyboard driver can be SYSGENed to a bootable CP/M hard disk. Just add it as the first command in the HDBOOT.SUB file:
 	```
